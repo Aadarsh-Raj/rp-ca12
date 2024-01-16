@@ -1,0 +1,17 @@
+.card-item{
+    width: 90%;
+    border: 3px inset red;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    border-radius: 0.8rem;
+    box-shadow: 0.25rem 0.2rem 0.2rem black;
+    padding: 1rem;
+}
+.card-para{
+    color: blueviolet;
+}
+.card-title{
+    color: rgb(139, 139, 207);
+}

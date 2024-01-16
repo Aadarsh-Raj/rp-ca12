@@ -1,0 +1,31 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 26%;
+    gap: 1rem;
+    
+}
+.card-upper{
+    background-color: #f9fafb;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 #0000,0 0 #0000,0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0,.1);
+    letter-spacing: 0.03rem;
+    word-spacing: 0.05rem;
+}
+.card-lower{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-logo img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width:800px) {
+    .card{
+        flex-basis: 75%;
+    }
+}

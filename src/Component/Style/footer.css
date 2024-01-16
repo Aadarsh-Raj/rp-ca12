@@ -1,0 +1,24 @@
+.footer{
+    background-color: #f3f4f6;
+}
+.inner-footer{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+    align-items: center;
+  padding: 5rem 0;
+  line-height: 2rem;
+}
+.footer-social-media{
+    display: flex;
+    gap: 2rem;
+}
+
+@media screen and (max-width:800px) {
+    .inner-footer{
+        width: 83%;
+    }
+}
