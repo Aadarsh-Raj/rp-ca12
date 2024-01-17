@@ -20,7 +20,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
       <section className="get-in-touch-container">
         
         <div className="image-for-get-in-touch">
