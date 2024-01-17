@@ -1,8 +1,9 @@
 import React, {useContext} from "react";
 import { FoodContext } from "./FoodContext";
 const FoodDetails = () => {
-    const FoodItem = useContext(FoodContext);
-    console.log(FoodItem);
+    const data = useContext(FoodContext);
+    const foodDetails = data.FoodItem;
+    console.log(foodDetails);
   return (
     <>
       <div className="food-detail-container">
@@ -10,9 +11,9 @@ const FoodDetails = () => {
           <img src="" alt="" />
         </div>
         <div className="detail-for-food">
-          {/* Name : {eleData.strMeal} <br />
-          Category : {eleData.strCategory} <br /> */}
-          {/* Tags : {} */}
+          Name : {foodDetails.strMeal} <br />
+          Category : {foodDetails.strCategory} <br />
+          Tags : {foodDetails.strTags}
 
         </div>
       </div>

@@ -1,8 +1,12 @@
-import React from "react";
+import React,{useContext, useState} from "react";
 import "./Style/fooditem.css";
 import { Link } from "react-router-dom";
-
+import { FoodContext, FoodFunc } from "./FoodContext";
 const FoodItem = (prop) => {
+   const data = useContext(FoodContext);
+   data.setFoodItem(prop.data);
+  //  console.log(data);
+
   return (
     <>
       <div className="food-item">
